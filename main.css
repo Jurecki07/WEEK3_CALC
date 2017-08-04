@@ -28,7 +28,7 @@ width: 20%;
     padding: 36px;
 }
 
-.button{
+.button, .clear, .work{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -39,9 +39,11 @@ width: 20%;
     background-color: #61B34F;
     font-size: 20px;
 
+    
+
 }
 
-.buttonfunction{
+.function{
     display: flex;
     justify-content: center;
     align-items: center;
