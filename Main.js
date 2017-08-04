@@ -1,14 +1,38 @@
 // Get all the keys from document
 var button = document.querySelectorAll('.button');
-var screen = document.querySelector('.screen')
+var screen = document.querySelector('.screen');
+var work = document.querySelector('.work')
+var clear = document.querySelector('.clear')
 
-// Add onclick event to all the keys and perform operations
-for (var i = 0; i < button; i++) {
-    button[i].onclick = function () {
-        // Get the input and button values
-        var inputVal = input.innerHTML;
-        var btnVal = this.innerHTML;
-    }
+
+
+
+
+
+
+
+for (var i = 0; i < button.length; i++) {
+ button[i].addEventListener("click", function (){
+ output = this.innerHTML;
+ screen.innerHTML += output;
+});
+
+work.addEventListener("click", function (){
+
+screen.innerHTML = eval(screen.innerHTML) 
+
+});
+
+clear.addEventListener("click", function () {
+screen.innerHTML = ""
+
+
+
+
+
+
+
+
+});
 }
-
 
