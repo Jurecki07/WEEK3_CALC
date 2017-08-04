@@ -6,11 +6,6 @@ var clear = document.querySelector('.clear')
 
 
 
-
-
-
-
-
 for (var i = 0; i < button.length; i++) {
  button[i].addEventListener("click", function (){
  output = this.innerHTML;
